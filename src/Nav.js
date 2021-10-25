@@ -1,5 +1,5 @@
-import { ReactComponent as ReactLogo } from "./Rectangle.svg";
-import { ReactComponent as MobileMenuLogo } from "./burger.svg";
+import { ReactComponent as ReactLogo } from "./images/Rectangle.svg";
+import { ReactComponent as MobileMenuLogo } from "./images/burger.svg";
 import { useState } from 'react';
 export default function Nav() {
     const [isOpen, setIsOpen] = useState(false);

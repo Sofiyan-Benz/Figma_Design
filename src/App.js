@@ -1,26 +1,34 @@
 import React from "react";
 import Nav from "./Nav";
-import "./App.css";
+// import { ReactComponent as Boards } from "./images/Dashboard.svg";
+import screens from './images/screens.png';
 
+import "./App.css";
 
 function App() {
   return (
     <React.Fragment>
       <Nav />
-      <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
+      <header className="bg-black ">
+        <div className=" bg-black max-w-lg mx-auto py-6 font-Graphik">
+          <h1 className="text-white text-6xl font-medium text-center ">
+            Work at the speed <br /> of thought
+          </h1>
+          <p className="text-white font-normal text-center py-6 ">
+            {" "}
+            Most calendars are designed for teams. Slate is designed for
+            freelancers who want a simple way to plan their schedule.
+          </p>
+        </div>
+        <div className="sm:flex justify-center space-x-3 max-w-lg mx-auto">
+          <button className="bg-primary font-Graphik text-white border font-normal shadow py-2 px-5 rounded-md font-normal   " >Try For Free</button>
+          <button className="text-white font-Graphik shadow border-white border py-2 px-5 rounded-md font-normal ">Learn More</button>
+        </div> 
+        <div className="flex justify-center mt-10">
+        <img src={screens} />
         </div>
       </header>
-      <main>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-          {/* <!-- Replace with your content --> */}
-          <div className="px-4 py-6 sm:px-0">
-            <div className="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
-          </div>
-          {/* <!-- /End replace --> */}
-        </div>
-      </main>
+      <main></main>
     </React.Fragment>
   );
 }
