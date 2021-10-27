@@ -2,6 +2,8 @@ import React from "react";
 import Nav from "./Nav";
 import Features from './Features';
 import Contents from './Contents';
+import Gallery from './Gallery';
+
 
 // import { ReactComponent as Boards } from "./images/Dashboard.svg";
 import screens from './images/screens.png';
@@ -39,6 +41,9 @@ function App() {
       </main>
       <div>
       <Contents />
+      </div>
+      <div>
+      <Gallery />
       </div>
     </React.Fragment>
   );
