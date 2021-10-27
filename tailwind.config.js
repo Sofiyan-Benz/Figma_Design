@@ -29,6 +29,10 @@ module.exports = {
         "hero-pattern":
           "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%)",
       },
+      width: {
+        '29': '29.75rem',
+        '25': '25.321rem'
+      }
       
     },
   },
