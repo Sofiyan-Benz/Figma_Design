@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
+import Features from './Features';
 // import { ReactComponent as Boards } from "./images/Dashboard.svg";
 import screens from './images/screens.png';
 
@@ -20,15 +21,20 @@ function App() {
             freelancers who want a simple way to plan their schedule.
           </p>
         </div>
-        <div className="sm:flex justify-center space-x-3 max-w-lg mx-auto">
-          <button className="bg-primary font-Graphik text-white border font-normal shadow py-2 px-5 rounded-md font-normal   " >Try For Free</button>
-          <button className="text-white font-Graphik shadow border-white border py-2 px-5 rounded-md font-normal ">Learn More</button>
+        <div className="flex justify-center sm:flex-col sm:space-y-3 items-center  md:flex-row md:space-x-3 ">
+          <button className="bg-primary font-Graphik text-white border font-normal shadow py-2 px-5 font-normal w-44" >Try For Free</button>
+          <button className="text-white font-Graphik shadow border-white border py-2 px-5 font-normal w-44 ">Learn More</button>
         </div> 
-        <div className="flex justify-center mt-10">
+        <div className=" flex justify-center mt-9    ">
         <img src={screens} />
+              <div className="h-551px w-full absolute top-67 left-0 right-0 bottom-0 bg-hero-pattern "></div>
+
         </div>
+        <Features />
       </header>
-      <main></main>
+      <main>
+       
+      </main>
     </React.Fragment>
   );
 }
