@@ -1,6 +1,8 @@
 import React from "react";
 import Nav from "./Nav";
 import Features from './Features';
+import Contents from './Contents';
+
 // import { ReactComponent as Boards } from "./images/Dashboard.svg";
 import screens from './images/screens.png';
 
@@ -10,7 +12,7 @@ function App() {
   return (
     <React.Fragment>
       <Nav />
-      <header className="bg-black ">
+      <header className="bg-black  ">
         <div className=" bg-black max-w-lg mx-auto py-6 font-Graphik">
           <h1 className="text-white text-6xl font-medium text-center ">
             Work at the speed <br /> of thought
@@ -30,11 +32,14 @@ function App() {
               <div className="h-551px w-full absolute top-67 left-0 right-0 bottom-0 bg-hero-pattern "></div>
 
         </div>
-        <Features />
-      </header>
-      <main>
        
+      </header>
+      <main className="bg-black" >
+      <Features />
       </main>
+      <div>
+      <Contents />
+      </div>
     </React.Fragment>
   );
 }

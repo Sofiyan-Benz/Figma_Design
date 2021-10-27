@@ -64,9 +64,13 @@ export default function Nav() {
           </div>
         </div>
         {/* Mobile Menu  */}
-{(isOpen) ? <div className="text-white">
+{(isOpen) ? <div className="text-white flex flex-col items-center">
           <a href="" className="block py-2 px-4 text-sm hover:bg-gray-700">Home</a>
           <a href="" className="block py-2 px-4 text-sm hover:bg-gray-700">Product</a>
+          <a href="" className="block py-2 px-4 text-sm hover:bg-gray-700">About</a>
+          <a href="" className="block py-2 px-4 text-sm hover:bg-gray-700">Contact</a>
+
+
         </div> : '' }
         
 
