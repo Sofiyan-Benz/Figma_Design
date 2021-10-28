@@ -20,20 +20,20 @@ export default function Gallery() {
         </p>
       </div>
       <div className="md:space-y-8 sm:space-y-8">
-        <div className="md:flex justify-center md:space-x-8 sm:flex-col sm: flex items-center sm:space-y-8  ">
+        <div className="md:flex justify-center flex-wrap  md:space-x-8 sm:flex-col sm: flex items-center sm:space-y-8  ">
           <img src={Rectone} />
           <img src={Rectow} className="rounded-md" />
           <img src={Recthree} className="rounded-md" />
           <img src={Rectfour} className="rounded-md" />
         </div>
 
-        <div className="md:flex justify-center md:space-x-8 sm:flex-col sm: flex items-center sm:space-y-8 ">
+        <div className="md:flex justify-center flex-wrap  md:space-x-8 sm:flex-col sm: flex items-center sm:space-y-8 ">
           <img src={Rectfive} className="rounded-md" />
           <img src={Rectsix} className="rounded-md" />
           <img src={Rectseven} className="rounded-md" />
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-14">
         <button className="text-white font-Graphik py-2 px-5 font-normal w-44 shadow border-white border">
           See More
         </button>

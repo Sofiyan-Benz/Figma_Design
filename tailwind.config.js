@@ -4,6 +4,10 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    borderColor: theme => ({
+      ...theme('borderColors'),
+      'primary': '#DEDEDE',
+    }),
     screens: {
       ...defaultTheme.screens,
       sm: { max: "767px", min: "200px" },
@@ -11,9 +15,7 @@ module.exports = {
     height: {
       "551px": "551px",
     },
-    inset: {
-      67: "67.1%",
-    },
+    
 
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
