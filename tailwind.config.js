@@ -4,6 +4,10 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    borderRadius: {
+
+      'large': '33px',
+    },
     borderColor: theme => ({
       ...theme('borderColors'),
       'primary': '#DEDEDE',
@@ -23,7 +27,7 @@ module.exports = {
     backgroundColor: (theme) => ({
       ...theme("colors"),
       primary: "#4452FE",
-      secondary: "#ffed4a",
+      secondary: "#343434",
       danger: "#e3342f",
     }),
     extend: {
@@ -33,7 +37,10 @@ module.exports = {
       },
       width: {
         '29': '29.75rem',
-        '25': '25.321rem'
+        '25': '25.321rem',
+        '36': '36.563rem'
+
+
       }
       
     },

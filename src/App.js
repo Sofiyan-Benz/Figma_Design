@@ -5,6 +5,7 @@ import Contents from "./Contents";
 import Gallery from "./Gallery";
 import Partners from "./Partners";
 import Testimonials from "./Testimonials"
+import Opentype from "./Opentype";
 // import { ReactComponent as Boards } from "./images/Dashboard.svg";
 import screens from "./images/screens.png";
 import "./App.css";
@@ -51,6 +52,7 @@ function App() {
       </div>
       <div><Partners /></div>
       <div><Testimonials /></div>
+      <div><Opentype /></div>
     </React.Fragment>
   );
 }
