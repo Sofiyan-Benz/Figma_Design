@@ -18,7 +18,7 @@ function App() {
             {/* Nav bar */}
             <Nav />
             <header className="bg-black text-white font-Graphik">
-                <div className="flex justify-center flex-col items-center">
+                <div className="flex justify-center flex-col items-center mt-24">
                     <h1 className="md:font-medium md:text-7xl md:max-w-709 text-center sm:w-294 sm:font-normal sm:text-5xl p-3 mb-7">
                         Work at the speed of thought
                     </h1>
