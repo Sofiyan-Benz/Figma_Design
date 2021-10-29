@@ -8,17 +8,25 @@ module.exports = {
         maxWidth: {
             "119": "119px",
             "308": "308px",
+            "336": "336px",
             "348": "348px",
             "352": "352px",
             "376": "376px",
             "268": "268px",
             "402": "402px",
+            "407": "407px",
+            "549": "549px",
+            "541": "541px",
+            "544": "544px",
             "431": "431px",
             "476": "476px",
+            "479": "479px",
+            "585": "585px",
             "591": "591px",
             "602": "602px",
             "709": "709px",
             "752": "752px",
+            "1219": "1219px",
         },
 
         boxShadow: {
@@ -47,7 +55,7 @@ module.exports = {
         backgroundColor: (theme) => ({
             ...theme("colors"),
             primary: "#4452FE",
-            secondary: "#343434",
+            secondary: "#1E1E1E",
             danger: "#e3342f",
         }),
         extend: {
