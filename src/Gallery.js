@@ -27,7 +27,7 @@ export default function Gallery() {
           <img src={Rectfour} className="rounded-md" />
         </div>
 
-        <div className="md:flex justify-center flex-wrap  md:space-x-8 sm:flex-col sm: flex items-center sm:space-y-8 ">
+        <div className=" hidden md:flex justify-center flex-wrap  md:space-x-8 sm:flex-col sm: flex items-center sm:space-y-8 ">
           <img src={Rectfive} className="rounded-md" />
           <img src={Rectsix} className="rounded-md" />
           <img src={Rectseven} className="rounded-md" />
