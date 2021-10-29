@@ -10,11 +10,11 @@ import Rectseven from "./images/gallery/Rectangle7.png";
 export default function Gallery() {
     return (
         <div className="bg-black w-full ">
-            <div className=" bg-black max-w-lg mx-auto py-6 font-Graphik">
+            <div className=" bg-black max-w-lg mx-auto py-6 font-Graphik md:w-591 sm:w-383 mt-40 ">
                 <h2 className="text-white text-5xl font-normal text-center ">
                     Gallery
                 </h2>
-                <p className="text-white font-normal text-center py-6 ">
+                <p className="text-white font-normal text-center p-3">
                     We focus on ergonomics and meeting you where you work. It's
                     only a keystroke away.
                 </p>

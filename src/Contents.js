@@ -7,7 +7,7 @@ import StyleTitle from "./Components/StyleTitle.js";
 
 export default function Contents() {
     return (
-        <div className="bg-black w-full mt-28 text-white">
+        <div className="bg-black w-full mt-40 text-white">
             <div className=" bg-black  mx-auto font-Graphik p-3 mb-7 md:max-w-591  sm:max-w-308">
                 <h2 style={StyleTitle} className="font-normal text-center">
                     Contents
@@ -18,35 +18,39 @@ export default function Contents() {
                 </p>
             </div>
 
-            <div className="md:flex justify-center sm:flex-col sm: flex items-center  ">
-                <div className="md:max-w-476 md:mr-4 sm:mb-4  sm:max-w-348   h-551px bg-white rounded flex flex-col items-center justify-between text-center text-black pt-10 pb-10">
-                    <h3 className="font-medium text-xl text-black">Work</h3>
+            <div className="md:flex justify-center sm:flex-col sm:flex items-center">
+                <div className="md:w-476 md:mr-4 sm:mb-4 sm:w-348 h-624 bg-white rounded flex flex-col items-center justify-between text-center text-black pt-10 pb-10">
+                    <div>
+                        <h3 className="font-medium text-xl text-black mb-8">
+                            Work
+                        </h3>
 
-                    <p className="max-w-268">
-                        Ever wondered if you're too reliant on a client for
-                        work? Slate helps you identify.
-                    </p>
+                        <p style={{ color: "#5C5C5C" }} className="max-w-268">
+                            Ever wondered if you're too reliant on a client for
+                            work? Slate helps you identify.
+                        </p>
+                    </div>
+
                     <CustomSmallBlueButton name="Sign Up" />
-                    <img
-                        src={MacbookPro}
-                        className="md:max-w-476 sm:max-w-297 "
-                    />
+                    <div>
+                        <img src={MacbookPro} className="md:w-405 sm:w-297 " />
+                    </div>
                 </div>
 
-                <div className="md:max-w-476 md:ml-4 sm:mt-4  sm:max-w-348 h-551px bg-white rounded flex flex-col items-center justify-between text-center text-black pt-10 pb-10">
-                    <h3 className="font-medium text-xl text-black">
-                        Design with real data
-                    </h3>
-                    <p className="max-w-268">
-                        Ever wondered if you're too reliant on a client for
-                        work? Slate helps you identify.
-                    </p>
-
+                <div className="md:w-476 md:ml-4 sm:mt-4 sm:w-348 h-624 bg-white rounded flex flex-col items-center justify-between text-center text-black pt-10 pb-10">
+                    <div>
+                        <h3 className="font-medium text-xl text-black mb-8">
+                            Design with real data
+                        </h3>
+                        <p style={{ color: "#5C5C5C" }} className="max-w-268">
+                            Ever wondered if you're too reliant on a client for
+                            work? Slate helps you identify.
+                        </p>
+                    </div>
                     <CustomSmallBlueButton name="Try For Free" />
-                    <img
-                        src={BoardsScreen}
-                        className="md:max-w-379 sm:max-w-280"
-                    />
+                    <div>
+                        <img src={BoardsScreen} className="md:w-379 sm:w-280" />
+                    </div>
                 </div>
             </div>
         </div>
