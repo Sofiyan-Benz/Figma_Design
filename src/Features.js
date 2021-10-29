@@ -7,12 +7,12 @@ import { ReactComponent as Infinie } from "./images/Vector3.svg";
 export default function Features() {
     return (
         <div className="w-full mt-24 text-white ">
-            <div className=" bg-black md:max-w-602 sm:max-w-431 mx-auto font-Graphik p-3 mb-7 ">
+            <div className=" bg-black  mx-auto font-Graphik p-3 mb-7 md:max-w-602 sm:max-w-431">
                 <h2 className="text-5xl font-normal text-center mb-7">
                     FEATURES
                 </h2>
 
-                <p className="  md:max-w-602 text-center font-normal text-xl sm:max-w-402">
+                <p className="text-center font-normal text-xl md:max-w-602  sm:max-w-402">
                     Most calendars are designed for teams. Slate is designed for
                     freelancers who want a simple way to plan their schedule.
                 </p>
