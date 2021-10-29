@@ -5,8 +5,6 @@ import CustomSmallBlueButton from "./Components/CustomSmallBlueButton.js";
 import StyleParagraph from "./Components/StyleParagraph.js";
 import StyleTitle from "./Components/StyleTitle.js";
 
-import { fontSize } from "tailwindcss/defaultTheme";
-
 export default function Contents() {
     return (
         <div className="bg-black w-full mt-28 text-white">

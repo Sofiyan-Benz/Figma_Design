@@ -25,7 +25,7 @@ export default function Features() {
 
                 <div className="text-white space-y-6 ">
                     <div className="w-64 p-2 ">
-                        <div className="flex">
+                        <div className="flex items-center">
                             <Vector />
                             <span className="text-lg font-medium mb-2.5 ml-2.5 	">
                                 A single source <br /> of truth
@@ -38,7 +38,7 @@ export default function Features() {
                     </div>
 
                     <div className="w-64 p-2 ">
-                        <div className="flex">
+                        <div className="flex items-center  ">
                             <Alien />
                             <span className="text-lg font-medium mb-2.5 ml-2.5 	">
                                 Intuitive
@@ -52,7 +52,7 @@ export default function Features() {
                     </div>
 
                     <div className="w-64 p-2 ">
-                        <div className="flex">
+                        <div className="flex items-center">
                             <Infinie />
                             <span className="text-lg font-medium mb-2.5 ml-2.5 	">
                                 Or with rules

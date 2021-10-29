@@ -1,6 +1,5 @@
 import React from "react";
 import LineChart from "./images/LineChart.png";
-import { fontSize } from "tailwindcss/defaultTheme";
 
 export default function Opentype() {
     const StyleTitle = {
