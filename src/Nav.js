@@ -6,7 +6,14 @@ export default function Nav() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-black pt-5" style={{ height: "107px" }}>
+        <nav
+            className="bg-black pt-5"
+            style={{
+                height: "107px",
+                paddingRight: "241px",
+                paddingLeft: "241px",
+            }}
+        >
             <div className="max-w-5xl mx-auto px-4 ">
                 <div className="flex items-center justify-between">
                     <div className="flex">
