@@ -1,9 +1,15 @@
 import React from "react";
 import LineChart from "./images/LineChart.png";
-import StyleTitle from "./Components/StyleTitle.js";
 import { fontSize } from "tailwindcss/defaultTheme";
 
 export default function Opentype() {
+    const StyleTitle = {
+        lineHeight: "62px",
+        fontSize: "52px",
+        fontStyle: "normal",
+        letterSpacing: "0.2px",
+        marginBottom: "10px",
+    };
     return (
         <div className="bg-black w-full">
             <div className="bg-secondary  md:rounded-large sm:rounded-none md:flex justify-between md:mr-44 md:ml-44 sm:max-w-549 sm:flex-col sm:flex items-center">
@@ -16,7 +22,7 @@ export default function Opentype() {
                     </h3>
                     <button
                         style={{ lineHeight: "25px", fontSize: "17px" }}
-                        className="bg-primary shadow pt-3.5 pb-3.5 pr-16 pl-16 rounded-sm text-white  font-medium md:ml-20 sm:mb-24"
+                        className="bg-primary shadow pt-3.5 pb-3.5 pr-16 pl-16 rounded-sm text-white  font-medium  sm:mb-24"
                     >
                         Try For Free
                     </button>
