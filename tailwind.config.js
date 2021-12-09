@@ -1,7 +1,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-    purge: [],
+    purge: ["./src/**/*.html", "./src/**/*.js"],
     darkMode: false, // or 'media' or 'class'
     theme: {
         minWidth: { "476": "476px" },
