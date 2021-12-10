@@ -22,7 +22,7 @@ function App() {
                     <h1 className="md:font-medium md:text-7xl md:max-w-709 text-center sm:w-294 sm:font-normal sm:text-5xl p-3 mb-7">
                         Work at the speed of thought
                     </h1>
-                    <p className="md:max-w-602 text-center font-normal text-xl mb-24 sm:max-w-402 p-3">
+                    <p className="md:w-602 text-center font-normal text-xl mb-24 sm:w-402 p-3">
                         Most calendars are designed for teams. Slate is designed
                         for freelancers who want a simple way to plan their
                         schedule.
