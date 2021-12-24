@@ -7,12 +7,12 @@ import { ReactComponent as Infinie } from "./images/Vector3.svg";
 export default function Features() {
     return (
         <div className="w-full mt-24 text-white ">
-            <div className=" bg-black  mx-auto font-Graphik p-3 mb-20 md:max-w-602 sm:max-w-431">
+            <div className=" bg-black  mx-auto font-Graphik p-3 mb-20 ">
                 <h2 className="text-5xl font-normal text-center mb-7">
                     FEATURES
                 </h2>
 
-                <p className="text-center font-normal text-xl md:w-602  sm:w-402">
+                <p className="text-center font-normal text-xl">
                     Most calendars are designed for teams. Slate is designed for
                     freelancers who want a simple way to plan their schedule.
                 </p>
@@ -20,14 +20,14 @@ export default function Features() {
 
             <div className="flex justify-center items-center font-Graphik sm:flex-col sm:space-y-10">
                 <div className="">
-                    <img src={Frame} className="sm:max-w-376 md:max-w-752" />
+                    <img src={Frame} className="" />
                 </div>
 
                 <div className="text-white space-y-6 ">
-                    <div className="w-64 p-2 ">
+                    <div className=" p-2 ">
                         <div className="flex items-center">
                             <Vector />
-                            <span className="text-lg font-medium mb-2.5 ml-2.5">
+                            <span className="text-lg font-medium mb-2.5 ">
                                 A single source <br /> of truth
                             </span>
                         </div>
@@ -37,10 +37,10 @@ export default function Features() {
                         </p>
                     </div>
 
-                    <div className="w-64 p-2 ">
+                    <div className=" p-2 ">
                         <div className="flex items-center  ">
                             <Alien />
-                            <span className="text-lg font-medium mb-2.5 ml-2.5 	">
+                            <span className="text-lg font-medium mb-2.5 	">
                                 Intuitive
                                 <br /> interface
                             </span>
@@ -51,10 +51,10 @@ export default function Features() {
                         </p>
                     </div>
 
-                    <div className="w-64 p-2 ">
+                    <div className=" p-2 ">
                         <div className="flex items-center">
                             <Infinie />
-                            <span className="text-lg font-medium mb-2.5 ml-2.5 	">
+                            <span className="text-lg font-medium mb-2.5 ">
                                 Or with rules
                             </span>
                         </div>

@@ -35,7 +35,9 @@ function App() {
                 </div>
                 {/* Gradient */}
                 <div className="flex justify-center mt-9 relative">
-                    <img src={screens} alt="Screen Dashboard" />
+                    <div className="w-full bg-no-repeat ">
+                        <img src={screens} alt="Screen Dashboard" />
+                    </div>
                     <div
                         style={{ height: "20vw" }}
                         className=" w-full absolute left-0 right-0  bottom-0 bg-hero-pattern"

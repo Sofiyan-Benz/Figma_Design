@@ -7,35 +7,30 @@ export default function Opentype() {
         fontSize: "52px",
         fontStyle: "normal",
         letterSpacing: "0.2px",
-        marginBottom: "37px",
-        width: "479px",
     };
     return (
         <div className="bg-black w-full flex justify-center">
-            <div
-                style={{ width: "1219px" }}
-                className="bg-secondary lg:rounded-large sm:rounded-none lg:flex justify-between  "
-            >
-                <div className="lg:pl-24 lg:pr-12 m-auto ">
+            <div className="bg-secondary sm:rounded-none  sm:w-549 md:w-709 lg:w-1219 lg:flex justify-between lg:rounded-large">
+                <div className="flex items-center flex-col pt-28 pb-28 lg:pt-16 lg:pb-16 lg:m-auto ">
                     <h3
                         style={StyleTitle}
-                        className="sm:text-center  text-white font-normal font-Graphik sm:mt-24"
+                        className="text-center text-white font-normal font-Graphik mb-9 lg:w-479 lg:text-left"
                     >
                         OpenType features and Variable fonts
                     </h3>
                     <button
                         style={{ lineHeight: "25px", fontSize: "17px" }}
-                        className="bg-primary shadow pt-3.5 pb-3.5 pr-16 pl-16 rounded-sm text-white  font-medium  sm:mb-24 "
+                        className="bg-primary shadow pt-3.5 pb-3.5 pr-16 pl-16 rounded-sm text-white font-medium"
                     >
                         Try For Free
                     </button>
                 </div>
 
-                <div className=" ">
+                <div>
                     <img
                         src={LineChart}
-                        alt=""
-                        className="sm:p-7  lg:rounded-large "
+                        alt="figmaland site"
+                        className="lg:rounded-large md:w-full "
                     />
                 </div>
             </div>

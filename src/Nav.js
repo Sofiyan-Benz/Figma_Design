@@ -6,7 +6,7 @@ export default function Nav() {
 
     return (
         <nav className="bg-black pt-5 md:flex justify-center">
-            <div className="md:w-1097 flex justify-between items-center">
+            <div className="sm:w-full md:w-1097 flex justify-between items-center">
                 <div className="">
                     <ReactLogo />
                 </div>
@@ -43,7 +43,7 @@ export default function Nav() {
                         Contact
                     </a>
                 </div>
-                <div className="sm:flex space-x-4">
+                <div className="flex space-x-4">
                     <div>
                         <button
                             style={{

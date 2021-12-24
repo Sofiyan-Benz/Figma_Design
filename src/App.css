@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    margin-right: 0;
+    margin-left: 0;
 }
 @font-face {
     font-family: "Conv_GraphikRegular";
