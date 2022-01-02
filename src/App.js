@@ -19,16 +19,16 @@ function App() {
             <Nav />
             <header className="bg-black text-white font-Graphik">
                 <div className="flex justify-center flex-col items-center mt-24">
-                    <h1 className="md:font-medium md:text-7xl md:max-w-709 text-center sm:w-294 sm:font-normal sm:text-5xl p-3 mb-7">
+                    <h1 className="md:font-medium md:text-7xl md:max-w-709 text-center sm:w-294 sm:font-normal  sm:text-5xl p-3 mb-7">
                         Work at the speed of thought
                     </h1>
-                    <p className="md:w-602 text-center font-normal text-xl mb-24 sm:w-402 p-3">
+                    <p className="md:w-582 sm:w-382 text-center font-normal text-xl mb-24">
                         Most calendars are designed for teams. Slate is designed
                         for freelancers who want a simple way to plan their
                         schedule.
                     </p>
                 </div>
-                <div className="flex justify-center sm:flex-col sm:space-y-3 items-center md:flex-row md:space-x-3">
+                <div className="flex justify-center sm:flex-col sm:space-y-5 items-center md:flex-row md:space-x-8">
                     <CustomBlueButton name="Try For Free" />
 
                     <CustomBlackButton name="Learn More" />
