@@ -12,7 +12,7 @@ export default function Features() {
                     FEATURES
                 </h2>
 
-                <p className="md:w-582 sm:w-382  text-center font-normal text-xl">
+                <p className="md:w-582 sm:w-382  text-center font-normal text-xl ">
                     Most calendars are designed for teams. Slate is designed for
                     freelancers who want a simple way to plan their schedule.
                 </p>
@@ -25,27 +25,48 @@ export default function Features() {
 
                 <div className="text-white space-y-6 ">
                     <div className=" p-2 ">
-                        <div className="flex items-start">
+                        <div className="flex items-center">
                             <Vector />
-                            <span className="text-lg font-medium p-2.5 ">
-                                A single source <br /> of truth
+
+                            <span className="text-lg font-medium pl-2.5 ">
+                                A single source
                             </span>
                         </div>
-                        <p className="text-base font-normal p-2.5	">
+                        <span className="text-lg font-medium pl-9 ">
+                            of truth
+                        </span>
+
+                        <p
+                            className="text-base font-normal "
+                            style={{
+                                width: "249px",
+                                padding: "10px",
+                                marginTop: "10px",
+                            }}
+                        >
                             When you add work to your Slate calendar we
                             automatically calculate useful insights
                         </p>
                     </div>
 
-                    <div className=" p-2 ">
-                        <div className="flex items-center  ">
+                    <div className=" ">
+                        <div className="flex items-center">
                             <Alien />
-                            <span className="text-lg font-medium p-2.5	">
+                            <span className="text-lg font-medium pl-2.5	">
                                 Intuitive
-                                <br /> interface
                             </span>
                         </div>
-                        <p className="text-base font-normal p-2.5	">
+                        <span className="text-lg font-medium pl-10">
+                            interface
+                        </span>
+                        <p
+                            className="text-base font-normal 	"
+                            style={{
+                                width: "249px",
+                                padding: "10px",
+                                marginTop: "10px",
+                            }}
+                        >
                             When you add work to your Slate calendar we
                             automatically calculate useful insights
                         </p>
@@ -58,7 +79,14 @@ export default function Features() {
                                 Or with rules
                             </span>
                         </div>
-                        <p className="text-base font-normal	p-2.5">
+                        <p
+                            className="text-base font-normal"
+                            style={{
+                                width: "249px",
+                                padding: "10px",
+                                marginTop: "10px",
+                            }}
+                        >
                             When you add work to your Slate calendar we
                             automatically calculate useful insights
                         </p>
